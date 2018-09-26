@@ -22,8 +22,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 Show working directory:
 `pwd`
+
 Create a directory:
 `mkdir`
+
 Delete a directory: ```rmdir```
 Create a file: 
 Delete a file: 
