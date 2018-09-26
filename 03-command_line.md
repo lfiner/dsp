@@ -75,7 +75,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -d`: list only directories
+
+`ls -m`: show the names as a comma-separated list
+
+`ls -r`: list files in reverse order
+
+`ls -x`: list files as rows
+
+`ls -1`: list each entry on a line
 
 ---
 
