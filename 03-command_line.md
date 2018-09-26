@@ -26,7 +26,7 @@ Create a directory: `mkdir`
 
 Delete a directory: `rmdir`
 
-Create a file: 
+Create a file: `touch newfile`
 
 Delete a file: `rm`
 
@@ -38,7 +38,7 @@ Copy a file from one directory to another: `cp path/file newpath/`
 
 Move up one directory level: `cd ..`
 
-Show a manual page: `man <command>`
+Show a manual page: `man command`
 
 
 ---
@@ -55,12 +55,19 @@ What do the following commands do:
 `ls -Glp`  
 
 `ls`: list files in the current directory
+
 `ls -a`: include hidden files
+
 `ls -l`: show files in long format
+
 `ls -lh`: show files in long format and with unit suffixes
+
 `ls -lah`: all of the above
+
 `ls -t`: sort in reverse chronological order
+
 `ls -Glp`: enable color, show in long format, and show a slash after directory names
+
 
 ---
 
