@@ -91,7 +91,15 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` takes standard input, such as a string or series of words or numbers, and feeds them to a command as arguments to that command.
+`xargs` takes standard input, such as a string or series of words or numbers, and feeds it to a command as arguments to that command.
+
+Example:
+
+`pwd  | xargs echo "Working directory is"`
+
+yields
+
+`Working directory is /Users/Myname`
 
  
 
