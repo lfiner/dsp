@@ -7,7 +7,6 @@ First, I imported the necessary modules.
 
 ```
 import math
-import thinkstats2
 import nsfg
 ```
 
