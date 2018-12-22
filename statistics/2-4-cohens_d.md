@@ -66,4 +66,4 @@ The result:
 Cohen's d: -0.088672927072602
 ```
 
-This figure, while larger (in an absolute-value sense) than the _d_ value for pregnancy length (0.029 as reported in ThinkStats), is still small. (Cohen [suggested](http://staff.bath.ac.uk/pssiw/stats2/page2/page14/page14.html) that anything less than |0.2| is a small effect size.)
+This figure, while larger (in an absolute-value sense) than the _d_ value for pregnancy length (0.029 as reported in ThinkStats), is still small. (Cohen [suggested](http://staff.bath.ac.uk/pssiw/stats2/page2/page14/page14.html) that anything less than |0.2| is a small effect size.) This suggests that the difference in birthweight between the two groups is not substantively significant.
