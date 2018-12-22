@@ -10,7 +10,7 @@ import math
 import nsfg
 ```
 
-Then, I loaded the NSFG data into a dataframe.
+Then, I loaded the NSFG pregnancy data into a dataframe.
 
 ```
 preg = nsfg.ReadFemPreg()
