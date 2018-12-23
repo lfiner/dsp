@@ -49,8 +49,8 @@ biased_pmf = BiasPmf(pmf, label='biased')
 I then calculated the means of both PMFs.
 
 ```
-print('Mean of actual:', pmf.Mean())
-print('Mean of biased:', biased_pmf.Mean())
+print('Mean of actual: %4.1f' % pmf.Mean())
+print('Mean of biased: %4.1f' % biased_pmf.Mean())
 ```
 
 The result:
