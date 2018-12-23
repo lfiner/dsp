@@ -27,15 +27,15 @@ others = births.totalwgt_lb[births.birthord != 1]
 I looked at the mean birthweight for each group.
 
 ```
-print('Mean weight of first births:', firsts.mean())
-print('Mean weight of other births:', others.mean())
+print('Mean weight of first births: %5.2f' % firsts.mean())
+print('Mean weight of other births: %5.2f' % others.mean())
 ```
 
 The results:
 
 ```
-Mean weight of first births: 7.201094430437772
-Mean weight of other births: 7.325855614973262
+Mean weight of first births: 7.20
+Mean weight of other births: 7.33
 ```
 
 So the difference is about a tenth of a pound. Seems small. 
@@ -57,13 +57,13 @@ def CohenEffectSize(group1, group2):
 Finally, I calculated Cohen's _d_.
 
 ```
-print("Cohen's d:", CohenEffectSize(firsts, others))
+print("Cohen's d: %5.2f" % CohenEffectSize(firsts, others))
 ```
 
 The result:
 
 ```
-Cohen's d: -0.088672927072602
+Cohen's d: -0.09
 ```
 
 This figure, while larger (in an absolute-value sense) than the _d_ value for pregnancy length (0.029 as reported in ThinkStats), is still small. (Cohen [suggested](http://staff.bath.ac.uk/pssiw/stats2/page2/page14/page14.html) that anything less than |0.2| is a small effect size.) This suggests that the difference in birthweight between the two groups is not substantively significant.
