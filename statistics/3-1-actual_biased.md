@@ -72,3 +72,4 @@ The result:
 
 ![Actual vs. biased plot](actual_vs_biased.png)
 
+So it appears there is a "household size paradox."
