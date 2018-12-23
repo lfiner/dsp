@@ -31,7 +31,7 @@ I created the probability mass function for this variable.
 pmf = thinkstats2.Pmf(numkdhh, label='actual')
 ```
 
-Next, I created the PMF for the biased version.
+Next, I created the PMF for the biased version, using the BiasPmf function provided in ThinkStats.
 
 ```
 def BiasPmf(pmf, label):
