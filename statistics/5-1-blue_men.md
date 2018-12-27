@@ -13,7 +13,7 @@ from scipy.stats import norm
 The group of interest is men between 5'10" and 6'1", which corresponds to the range 178 cm to 185 cm.
 
 
-I used norm.cdf to calculate the cumulative percentage of values up (but not including 178) cm -- in other words, up to 177 cm. I used the _μ_ and _σ_ values from the BRFSS to shift and scale the normal distribution used.
+I used norm.cdf to calculate the cumulative percentage of values up to (but not including 178) cm &mdash; in other words, up to 177 cm. I used the _μ_ and _σ_ values for men from the BRFSS to shift and scale the normal distribution used.
 
 ```
 lt178 = norm.cdf(177, 178, 7.7)
