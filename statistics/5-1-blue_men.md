@@ -4,16 +4,18 @@
 
 In order to join Blue Man Group, you have to be male between 5'10" and 6'1" (see http://bluemancasting.com). What percentage of the U.S. male population is in this range? Hint: use scipy.stats.norm.cdf.
 
-First, I imported the necessary modules.
+First, I imported the necessary module.
 
 ```
-import thinkstats2
-import brfss
+from scipy.stats import norm
 ```
 
-I then read the BRFSS data into a dataframe.
+The group of interest is men between 5'10" and 6'1", which corresponds to the range 178 cm to 185 cm.
+
+I used norm.cdf to calculate the cumulative distribution of values up but not including 178 cm:
 
 ```
-df = brfss.ReadBrfss()
+print('Percent <178 cm: ' norm.cdf(177, 178, 7.7))
 ```
 
+The result: 
