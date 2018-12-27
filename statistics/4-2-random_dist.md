@@ -21,8 +21,10 @@ for i in range(1000):
 
 I then generated the PMF and CDF of this list of numbers.
 
+```
 pmf = thinkstats2.Pmf(randlist, label="PMF")
 cdf = thinkstats2.Cdf(randlist, label="CDF")
+```
 
 Finally, I plotted them together.
 
