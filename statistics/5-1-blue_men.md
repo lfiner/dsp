@@ -37,3 +37,5 @@ The result:
 ```
 Percent of men between 178 and 185 cm inclusive: 0.37
 ```
+
+So, a bit more than a third of men are eligible to join BMG.
