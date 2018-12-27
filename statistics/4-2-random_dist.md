@@ -37,5 +37,6 @@ thinkplot.Show()
 
 The result:
 
+![PMF and CDF plot](pmf_and_cdf.png)
 
 Based on this, the randomizer does appear to be random enough for general use.
