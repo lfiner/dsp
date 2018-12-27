@@ -39,4 +39,4 @@ The result:
 
 ![PMF and CDF plot](pmf_and_cdf.png)
 
-Based on this, the randomizer does appear to be random enough for general use.
+The PMF is even height all the way across, and the CDF is a straight line approximating `y = x`. Based on this, the randomizer does appear to be random enough for general use.
