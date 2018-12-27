@@ -29,6 +29,7 @@ Finally, I calculated the difference.
 
 ```
 diff = le185 - lt178
+print('Percent of men between 178 and 185 cm inclusive: %4.2f' % diff)
 ```
 
 The result: 
